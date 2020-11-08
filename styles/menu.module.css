@@ -1,0 +1,27 @@
+.sidebar{
+    background-color: #222;
+    box-shadow: 1px 3px 6px 0 #222222b3;
+    padding: 10px;
+}
+.sidebar .logo{
+    width: 40%;
+}
+.sidebar .logo h1{
+    color: #fff;
+    font-family: var(--roboto);
+    font-size: 8vw;
+    text-transform: uppercase;
+}
+@media(min-width: 48em){
+    .sidebar{
+        justify-content: center;
+        width: 18%;
+    }
+    .sidebar .logo{
+        text-align: center;
+        width: 80%;;
+    }
+    .sidebar .logo h1{
+        font-size: 1.3vw;
+    }
+}
